@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "_id": "647fb31a89c92b2345678901",
+      "name": "Intellitots Admin",
+      "email": "admin@firstcry.com",
+      "password": "hashed_admin123_value",
+      "role": "admin"
+    },
+    {
+      "_id": "647fb31a89c92b2345678902",
+      "name": "Miss Clara Smith",
+      "email": "teacher@firstcry.com",
+      "password": "hashed_teacher123_value",
+      "role": "teacher"
+    },
+    {
+      "_id": "647fb31a89c92b2345678903",
+      "name": "Rohan Verma",
+      "email": "parent1@firstcry.com",
+      "password": "hashed_parent123_value",
+      "role": "parent"
+    },
+    {
+      "_id": "647fb31a89c92b2345678904",
+      "name": "Sunita Malhotra",
+      "email": "parent2@firstcry.com",
+      "password": "hashed_parent123_value",
+      "role": "parent"
+    }
+  ],
+  "students": [
+    {
+      "_id": "647fb42b89c92b2345678911",
+      "name": "Aanya Verma",
+      "class": "Nursery",
+      "section": "A",
+      "admissionNumber": "FC1001",
+      "parentId": "647fb31a89c92b2345678903",
+      "studentPhoto": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=200"
+    },
+    {
+      "_id": "647fb42b89c92b2345678912",
+      "name": "Kabir Malhotra",
+      "class": "Playgroup",
+      "section": "B",
+      "admissionNumber": "FC1002",
+      "parentId": "647fb31a89c92b2345678904",
+      "studentPhoto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200"
+    },
+    {
+      "_id": "647fb42b89c92b2345678913",
+      "name": "Myra Sen",
+      "class": "Nursery",
+      "section": "A",
+      "admissionNumber": "FC1003",
+      "parentId": null,
+      "studentPhoto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200"
+    }
+  ],
+  "albums": [
+    {
+      "_id": "647fb53c89c92b2345678921",
+      "eventName": "Sports Day Extravaganza 2026",
+      "eventDate": "2026-02-15T00:00:00.000Z",
+      "category": "Sports Day",
+      "description": "Annual sports activities, races, and awards ceremony at the play arena.",
+      "approvalStatus": "approved",
+      "createdBy": "647fb31a89c92b2345678902"
+    },
+    {
+      "_id": "647fb53c89c92b2345678922",
+      "eventName": "Diwali Festival Celebrations",
+      "eventDate": "2026-03-20T00:00:00.000Z",
+      "category": "Festival Celebrations",
+      "description": "Traditional outfit display, clay lamp lighting, and rangoli artwork drawing.",
+      "approvalStatus": "approved",
+      "createdBy": "647fb31a89c92b2345678902"
+    },
+    {
+      "_id": "647fb53c89c92b2345678923",
+      "eventName": "Creative Art Day Display",
+      "eventDate": "2026-04-10T00:00:00.000Z",
+      "category": "Art Day",
+      "description": "Hand painting and clay sculpting session showcasing toddler creativity.",
+      "approvalStatus": "pending",
+      "createdBy": "647fb31a89c92b2345678902"
+    }
+  ],
+  "photos": [
+    {
+      "_id": "647fb64d89c92b2345678931",
+      "albumId": "647fb53c89c92b2345678921",
+      "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=800",
+      "taggedStudents": ["647fb42b89c92b2345678911"],
+      "uploadedBy": "647fb31a89c92b2345678902"
+    },
+    {
+      "_id": "647fb64d89c92b2345678932",
+      "albumId": "647fb53c89c92b2345678921",
+      "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800",
+      "taggedStudents": ["647fb42b89c92b2345678912"],
+      "uploadedBy": "647fb31a89c92b2345678902"
+    },
+    {
+      "_id": "647fb64d89c92b2345678933",
+      "albumId": "647fb53c89c92b2345678921",
+      "imageUrl": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=800",
+      "taggedStudents": [
+        "647fb42b89c92b2345678911",
+        "647fb42b89c92b2345678912"
+      ],
+      "uploadedBy": "647fb31a89c92b2345678902"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "firstcry-intellitots-gallery",
+  "version": "1.0.0",
+  "description": "FirstCry Intellitots Event Photo Gallery - Root workspace",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "seed": "cd backend && npm run seed",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "start": "npm run backend"
+  }
+}
